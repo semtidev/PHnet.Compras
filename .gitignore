@@ -15,6 +15,9 @@ public/hot
 public_html/storage
 public_html/hot
 
+public/extjs42/
+public/highcharts423/
+public/controlpanel/
 storage/*.key
 .env
 Homestead.yaml

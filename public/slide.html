@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Background Stretcher Demo</title>
+
+<link rel="stylesheet" type="text/css" href="dist/css/bgstretcher.css" />
+
+<script type="text/javascript" src="dist/js/jquery-1.5.2.min.js"></script>
+<script type="text/javascript" src="dist/js/bgstretcher.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+	
+        //  Initialize Backgound Stretcher	   
+		$('BODY').bgStretcher({
+			images: ['dist/img/bg/bg2.jpg', 'dist/img/bg/bg3.jpg', 'dist/img/bg/bg5.jpg', 'dist/img/bg/bg6.jpg', 'dist/img/bg/bg7.jpg', 'dist/img/bg/bg4.jpg'],
+			imageWidth: 1024, 
+			imageHeight: 768, 
+			slideDirection: 'N',
+			slideShowSpeed: 3000,
+			transitionEffect: 'fade',
+			sequenceMode: 'random',
+			//buttonPrev: '#prev',
+			//buttonNext: '#next',
+			//pagination: '#nav',
+			anchoring: 'left center',
+			anchoringImg: 'left center'
+		});
+		
+	});
+</script>
+
+<script type="text/javascript" src="main.js"></script>
+
+</head>
+<body>		
+</body>
+</html>
